@@ -1,0 +1,19 @@
+action (search) {
+  type(Search)
+  description (search the news for the query)
+  collect {
+    input (category) {
+      type (Category)
+      min (Optional) max (One)
+    }
+    input (language) {
+      type (Language)
+      min (Optional) max (One)
+    }
+    input (country) {
+      type (Country)
+      min (Optional) max (One)
+    }
+  }
+  output (results)
+}
