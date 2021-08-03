@@ -1,8 +1,0 @@
-endpoints {
-  action-endpoints {
-    action-endpoint (search) {
-      accepted-inputs (category,language,country)
-      local-endpoint (search.js)
-    }
-  }
-}
