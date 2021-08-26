@@ -18,10 +18,15 @@ layout {
           }
         }
           }
-          on-click{
-            url(this.url)
-          }
+        
           image-url("[#{value(this.urlToImage)}]")
+        }
+        
+         attribution-link{
+          label{
+            template ("Link to the news")
+          }
+          url("[#{value(this.url)}]")
         }
 
         paragraph {
