@@ -23,7 +23,9 @@ layout {
                   url("/images/icons/SOA-PNG.png")
                   style(Legal)
                 }
-
+              spacer{
+                  size (Large)
+                }
                 
                 text{
                   value("[#{value(this.source.name)}]")
